@@ -1,15 +1,12 @@
-   /// <summary>   
-   
+
         #region
-        /// 根据excel 路径把第一个sheet中的内容放入到datatable
-        /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
-        ///      
-        
-        
-          public static DataTable ReadExcelToTable(string path)
-         {
+              /// 根据excel 路径把第一个sheet中的内容放入到datatable
+              /// </summary>
+              /// <param name="path"></param>
+              /// <returns></returns> 
+            
+           public static DataTable ReadExcelToTable(string path)
+          {
             try
             {             
                 //  连接字符串
